@@ -1,0 +1,70 @@
+/* Type your code here */
+body{
+    background-image: url('https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png');
+    background-repeat: no-repeat;
+    background-position: 415px 100px;
+    
+  
+  }
+  
+  .logo{
+    margin-left:1050px; 
+     text-align: right; 
+     justify-content: right;
+  }
+  
+  .container{
+    min-width: 700px;
+    height:400px;
+    /* background-color: white; */
+    border-collapse: collapse;
+    
+  }
+  .container thead tr{
+    text-align: left;
+    color: black;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  .container th,.container td{
+    padding: 8px 10px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+  }
+  
+  .container tbody tr{
+    border-bottom: 1px solid black;
+  }
+  .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: red;
+    color: aliceblue;
+    width:85%;
+    padding:.7rem;
+  
+  }
+  img{
+    display:none;
+  }
+  
+  .name{
+    color: blue;
+    cursor: pointer;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+  }
+  .notbat{
+    color: blue;
+    cursor: pointer; 
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+  }
+  h1 h3{
+    font-size: 80px;
+  }
+  
